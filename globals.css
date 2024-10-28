@@ -1,0 +1,18 @@
+*,
+
+
+:root {
+    color-scheme: light dark; 
+    --bg-color-dark: #0f172a;
+    --bg-color-light: #f8fafc;
+    --color-primary-light: #dc2626;
+    --color-primary-dark: #ef4444;
+    --color-segun-light: #a1a1aa;
+    --color-segun-dark: #727275;
+    --color-tercer-light: #e5e5e5;
+    --color-tercer-dark: #d1d1d1;
+    --color-cuar-light: #fb7185;
+    --color-cuar-dark:#ff8395;
+    --color-quinto-light: #be123c;
+    --color-quinto-dark: #f43f5e;
+}

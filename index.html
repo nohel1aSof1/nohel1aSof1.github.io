@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">To Do List</h1>
+        <h3 id="text">Mis Tareas</h3>
+    </div>
+
+    <div id="container-input">
+        <input type="text" id="input" placeholder="Nueva Tarea...">
+        <button id="input-btn">Añadir</button>
+    </div>
+
+    <ul id="list">
+        <li class="list-item-1">
+            <input type="checkbox" class="casilla">
+            <p class="actividad-1">Sacar al perro</p>
+            <button class="item-btn-delete">
+                <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                  </svg>
+                  
+            </button>
+
+            <li class="list-item-1">
+                <input type="checkbox" class="casilla">
+                <p class="actividad-1">Entrenas</p>
+                <button class="item-btn-delete">
+                    <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                      </svg>
+                      
+                </button>
+
+                <li class="list-item-1">
+                    <input type="checkbox" class="casilla">
+                    <p class="actividad-1">Cocinar</p>
+                    <button class="item-btn-delete">
+                        <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                          </svg>
+                          
+                    </button>
+
+                    <li class="list-item">
+                        <input type="checkbox" class="casilla">
+                        <p class="actividad">Hacer tarea</p>
+                        <button class="item-btn-delete">
+                            <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                              </svg>
+                              
+                        </button>
+
+
+                        <li class="list-item">
+                            <input type="checkbox" class="casilla">
+                            <p class="actividad">Compras</p>
+                            <button class="item-btn-delete">
+                                <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                  </svg>
+                                  
+                            </button>
+
+
+                            <li class="list-item">
+                                <input type="checkbox" class="casilla">
+                                <p class="actividad">Lavar</p>
+                                <button class="item-btn-delete">
+                                    <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                      </svg>
+                                      
+                                </button>
+
+
+                                <li class="list-item">
+                                    <input type="checkbox" class="casilla">
+                                    <p class="actividad">Limpiar</p>
+                                    <button class="item-btn-delete">
+                                        <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                          </svg>
+                                          
+                                    </button>
+
+
+                                    <li class="list-item">
+                                        <input type="checkbox" class="casilla">
+                                        <p class="actividad">Ordenar</p>
+                                        <button class="item-btn-delete">
+                                            <svg class="item-btn-delete-icom" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                              </svg>
+                                              
+                                        </button>
+    </ul>
+
+    <div id="Total-actividad">
+        <h2 id="total">Total: 8</h2>
+        <h2 id="completas">Completed: 3</h2>
+        <h2 id="incompletas">incompleted: 5</h2>
+    </div>
+
+    
+    
+</body>
+</html>
