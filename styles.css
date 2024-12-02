@@ -75,7 +75,7 @@ font-size: 18px;
     height: 20rem;
     overflow: auto;
     margin: 0rem auto;
-    width: 60%;
+    width: 59.5%;
     background-color: light-dark(var(--color-tercer-light), var(--color-tercer-dark))
 }
 
@@ -83,16 +83,6 @@ font-size: 18px;
     font-size: 3rem;
     height: 3.4rem;
     background-color: #a1a1aa;
-    margin: 2rem 0;
-    border-radius: 15px;
-    display: flex;
-    box-shadow: 0 8px 32px rgb(0, 0, 0, 0.25);
-}
-
-.list-item-1 {
-    font-size: 3rem;
-    height: 3.4rem;
-    background-color:light-dark(var(--color-cuar-light), var(--color-cuar-dark));
     margin: 2rem 0;
     border-radius: 15px;
     display: flex;
@@ -116,16 +106,6 @@ font-size: 18px;
     font-style: normal;
 }
 
-.actividad-1 {
-    margin:auto;
-    margin-left: 1rem;
-    font-size: 1.3rem;
-    color: #000000;
-    text-decoration: line-through;
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
 
 .actividad:focus{
     border-color: rgb(91, 125, 141);
@@ -227,7 +207,7 @@ transition: all 0.05s ease-in;
     }
 
     #list {
-        width: 81.3%;
+        width: 84%;
     }
 
     #Total-actividad {
